@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Jua&display=swap');
+
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.top {
+    height: 60px;
+}
+
+#title {
+    height: 60px;
+
+    position: relative;
+    top: 15px;
+    
+    margin: 0 0 0 10px;
+    
+    width: 120px;
+    height: 40px;
+
+    font-size: 40px;
+}
+
+#add-button {
+    background-color: whitesmoke;
+
+    border: none;
+    cursor: pointer;
+
+    width: 120px;
+    height: 60px;
+
+    font-size: 25px;
+
+    position: relative;
+    top: -40px;
+
+    padding: 0 0;
+
+    float: right;
+
+    margin-right: 10px;
+}
+
+#add-button:hover {
+    /* background-color: rgb(63, 63, 255); */
+    color: rgb(63, 63, 255);
+}
